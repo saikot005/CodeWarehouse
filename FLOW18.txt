@@ -1,0 +1,28 @@
+https://www.codechef.com/submit/FLOW018
+
+class Codechef
+{
+    
+    static int fact(int n){
+        
+        if(n == 0)
+            return 1;
+        else
+             return n*fact(n-1);
+    }
+    
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		
+		Scanner sc =new Scanner (System.in);
+		int T = sc.nextInt();
+		while(T-->0){
+		    
+		    int n = sc.nextInt();
+		    int fcat_cal = fact(n);
+		    System.out.println(fcat_cal);
+		}
+	}
+}
+
